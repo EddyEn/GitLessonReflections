@@ -11,10 +11,12 @@ automatically stay up-to-date with your remote repository?
 with many people on the same project. You migh need to concentrate on what you are working on, not on others' works.
 So manuanlly pull allows you to select specific branches to pull.
 
-Describe the differences between forks, clones, and branches.  When would you
+- Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
 
-    Fill in your answer here
+    Using folk is when you want to clone a repository from GitHub to you GitHub. Using Clones is when you want to
+clone a repository from both local and remote to your local repository. Using Branches is when you want to create
+a brance within a repository in a local machine.
 
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
