@@ -18,17 +18,23 @@ use one instead of another?
 clone a repository from both local and remote to your local repository. Using Branches is when you want to create
 a brance within a repository in a local machine.
 
-What is the benefit of having a copy of the last known state of the remote
+- What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    Fill in your answer here
+    The benefit is that when there is a conflict such as changes happen to both files in remote and local, the original
+is used for comparing can manual merging. Anather benefit could be that when being away from internet connection and
+working offline, the last known state of remote tells what changes are.
 
-How would you collaborate without using Git or GitHub?  What would be easier,
+- How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
-    Fill in your answer here
+    Without using git or github, collaboration would be sharing file on the cloud, create another file for a proposal,
+ and send the proposal to relevant people to approve. The hard part of doing that would be syncing changes between
+ file versions. However, the easy part would be less memoring git commands.
 
-When would you want to make changes in a separate branch rather than directly in
+- When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    Changes in separate branch do not affect master branch which is an official version that should always works. This
+allows developer to explore and try new features and idea, without being woried that the changes will damage the
+working version.
