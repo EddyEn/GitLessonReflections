@@ -6,3 +6,26 @@ When initializing a repository, .Git folder is added and status of all files in 
 
 The staging area is an interface between working directory and repository. The staging area acts as a buffer where 
 a single or multiple changed files are add to. Then all files added to staging area will be combines to a single commit.
+
+-How can you use the staging area to make sure you have one commit per logical change?
+I can use "git add" to add changed files to staging are. I then can use a command "git diff" to check what chages really are,
+and I can then use a command "git diff --staged" to check the different between files in staging area and repository to make
+sure that the changes going to be committed are correct.
+
+-What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+When you want to keep the official copy and want ot try a new feature, you might need to create a branch. Moreover, 
+some situations like experiencing or refactoring would be kept separately from the master branch. Branches helps to
+keep the master copy safe from any modifications on the others brances.
+
+-How do the diagrams help you visualize the branch structure?
+The diagram is easy to visual branch structure when you have many branches. If no diagram is used, it will be a linear
+list of commits, that(gramma check on what "that" substitute; list or commits) does not show other branches' commits.
+
+-What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+The features, fixes from the two branches are merged together. The diagram represents branches of parents merged to 
+a single commit.
+
+-What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+When there is no conflict between to-be-merged files, automatic merging is always fast and convenient. However, when a
+conflict which usually is changes on the same place introduced, it is neccessary to make sure that which change to be kept
+or which change to be deleted, or modified. 
