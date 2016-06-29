@@ -8,3 +8,5 @@ This project is a practice of learning Git course from UdaCity. The project cons
 - lesson_3_reflections.txt - is a reflection of collaboration when many people working on the same project. GitHub is introduced how to use to cooperate with others on the project.
 - Git_Concept.docx - is a summary of git structures shown in graphics and short definition.
 - Commit_Message.docx - is a commit message structure used when making a commit
+
+For the full course of Git lesson, please refer to [Udacity website](https://classroom.udacity.com/courses/ud775)
